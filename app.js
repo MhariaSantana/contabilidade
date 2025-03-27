@@ -26,9 +26,16 @@ else if(cor == "2"){
 else if(cor == "3"){
     corDeFundo = "black"
 }
-else if(cor == 4){
-    corDeFundo == "rose"
+else if(cor == "4"){
+    corDeFundo = "pink"
 }
+else if(cor == "5"){
+    corDeFundo = "green"
+}
+else if(cor == "6"){
+    corDeFundo = "orange"
+}
+
 
 
 
