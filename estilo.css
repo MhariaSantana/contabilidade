@@ -111,13 +111,18 @@ table {
 }
 .pt2{
     width: 500px;
+    
 }
 .linha{
     margin-top: 50px;
 }
 .ft-pt3{
-    width: 1200px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around ;
+
+    
 }
 .meio{
     padding-right: 15px;
