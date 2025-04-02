@@ -1,5 +1,10 @@
-let nomeCompleto = ""
+
+function fnSaudacao(){
+    let nomeCompleto = ""
 nomeCompleto = prompt("Informe seu nome completo")
+alert("Seja bem vindo(a) " + nomeCompleto + " ao meu site")
+}
+
 
 console.log(nomeCompleto)
 alert("Seja bem vindo(a) " + nomeCompleto)
@@ -31,4 +36,3 @@ document.body.style.backgroundColor = corDeFundo
 }
 
 
-fnTrocarCorDeFundo()
