@@ -9,7 +9,10 @@
 <body>
     <main class="fundo">
        
-            <h1 class="nome-empresa">PVSContabil</h1>
+            <h1 class="nome-empresa" id="titulo">PVSContabil</h1>
+                <div>
+                    <button type="button" onclick="fnTrocarTitulo()"> Nome novo</button>
+                </div>
             <h2 class="sub-titulo">SUA CONTABILIDADE NA MEDIDA CERTA</h2>
             <hr class="linha">
         
@@ -19,6 +22,9 @@
             </div>
             <div>
                 <button type="button" onclick="fnSaudacao()"> Seja bem-vindo </button>
+            </div>
+            <div>
+                <button type="button" onclick="fnMostrarHoraAtual()">Mostrar hora</button>
             </div>
         <nav class="menu">
             <a href="HOME" class="cor">HOME</a>

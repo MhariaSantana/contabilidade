@@ -36,3 +36,15 @@ document.body.style.backgroundColor = corDeFundo
 }
 
 
+function fnMostrarHoraAtual(){
+    let dataHoraCompleta = new Date()
+    let horas = dataHoraCompleta.getHours()
+    let minutos = dataHoraCompleta.getMinutes()
+    let horaAtual = horas +
+
+}
+
+function fnTrocarTitulo(){
+    document.getElementById("titulo").innerText= "Novo titulo"
+    
+}
