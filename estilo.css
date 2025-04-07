@@ -117,14 +117,21 @@ table {
     margin-top: 50px;
 }
 .ft-pt3{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     display: flex;
-    justify-content: space-around ;
-
-    
+    margin-left: 150px;
+    margin-top: 150px;
 }
 .meio{
     padding-right: 15px;
     padding-left: 15px;
+}
+.ft-meio{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form-contato{
+    
+
 }
