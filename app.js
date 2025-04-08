@@ -40,7 +40,7 @@ function fnMostrarHoraAtual(){
     let dataHoraCompleta = new Date()
     let horas = dataHoraCompleta.getHours()
     let minutos = dataHoraCompleta.getMinutes()
-    let horaAtual = horas +
+    let horaAtual = horas + minutos 
 
 }
 
@@ -48,3 +48,14 @@ function fnTrocarTitulo(){
     document.getElementById("titulo").innerText= "Novo titulo"
     
 }
+
+function fnRegistrarContato(){
+    let nome = document.getElementsByName("nome").value
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagem").value
+    let informacoesCompleta = nome + " " +  email + " <br>"+ mensagem
+    document.getElementById("informacoes").innerHTML = informacoesCompleta
+}
+document.getElementById("nome").value = " "
+document.getElementById("email").value = " "
+document.getElementById("mensagem").value = " "
